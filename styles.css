@@ -1,0 +1,155 @@
+
+body{
+  font-family: 'Oxygen', sans-serif;  
+  font-size: 16px;
+  color: #0d0c0c;
+  background-color: #edebf1;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #076118;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: #0bf81f;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #03070c;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 15px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+  text-align:center;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  font-style:normal;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Large devices only **********/
+
+@media screen and (max-width: 992px) {
+	section {
+		width: 100%;
+	}
+	section:last-of-type {
+		clear: both;
+	}
+	section:nth-of-type(3) {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section {
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+  /* Home Page */
+  .container .jumbotron {
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 432px;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-description {
+    text-align:justify;
+  }
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
